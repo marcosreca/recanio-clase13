@@ -1,0 +1,88 @@
+ul {
+  border-style: double;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  margin: 0;
+  padding: 0;
+  background: #f24fd7;
+  background: radial-gradient(circle, #f24fd7 0%, #f8f2a3 100%); }
+  ul li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-style: outset; }
+  ul a {
+    text-decoration: none;
+    color: none; }
+    ul a:hover {
+      background-color: transparent;
+      color: #070000; }
+    ul a:active {
+      color: black; }
+
+body {
+  background-image: url("/imagenes/15-Presentation-Background-Examples16.jpeg"); }
+
+footer {
+  display: flex;
+  background: #f24fd7;
+  background: radial-gradient(circle, #f24fd7 0%, #f8f2a3 100%);
+  justify-content: space-around;
+  align-items: center;
+  border-style: double;
+  border-radius: 2rem; }
+
+p {
+  margin-left: 1rem; }
+  p a {
+    margin: 2rem; }
+
+.titulo_index {
+  display: flex;
+  justify-content: center; }
+
+.section1 {
+  background-color: #f252d599;
+  border-radius: 2rem; }
+  .section1 p {
+    text-align: center; }
+
+.tarjeta {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section2 {
+  display: flex;
+  border-radius: 2rem;
+  background: #f252d599;
+  align-content: stretch;
+  justify-content: center; }
+  .section2 iframe {
+    display: flex;
+    justify-content: center;
+    padding-left: 10rem; }
+  .section2 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    font-size: 2rem; }
+  .section2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.tarjeta3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center; }
+  .tarjeta3 li {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2rem; }
