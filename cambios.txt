@@ -1,0 +1,7 @@
+Todos los cambios para esta entrega se efectuaron en la pagina index
+reutilice una entrega anterior para no estropear el projecto final, aun asi le estoy generando los cambios
+en el sass esta especificado donde utilice el map, mixin y extend
+Se agrego "clases de yoga" a la primer imagen para ser encontrada mejor
+Se mejoro el rendimiento de la imagen, cambiando el tamaño en photoshop
+Cambie imagenes a png
+Se agrego keywords
