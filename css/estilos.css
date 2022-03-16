@@ -86,3 +86,121 @@ p {
     display: flex;
     flex-wrap: wrap;
     border-radius: 2rem; }
+
+article {
+  display: flex;
+  justify-content: space-between; }
+
+.caja {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border: 1px solid black; }
+
+/*mapa*/
+.caja.uno {
+  background-color: red; }
+  .caja.uno:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.dos {
+  background-color: orange; }
+  .caja.dos:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.tres {
+  background-color: blue; }
+  .caja.tres:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.cuatro {
+  background-color: grey; }
+  .caja.cuatro:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.cinco {
+  background-color: pink; }
+  .caja.cinco:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+article {
+  display: flex;
+  justify-content: space-between; }
+
+.caja {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border: 1px solid black; }
+
+.caja.uno {
+  background-color: red; }
+  .caja.uno:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.dos {
+  background-color: orange; }
+  .caja.dos:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.tres {
+  background-color: blue; }
+  .caja.tres:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.cuatro {
+  background-color: grey; }
+  .caja.cuatro:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+.caja.cinco {
+  background-color: pink; }
+  .caja.cinco:before {
+    position: absolute;
+    bottom: -30px;
+    left: 0px; }
+
+/*extend*/
+.seguinos, .seguinos--nueva {
+  border: 1px solid #333333;
+  background-color: #f252d599;
+  padding: 20px;
+  font-size: 22px0;
+  font-weight: bold;
+  text-align: center; }
+
+.seguinos--nueva {
+  border-radius: 2rem;
+  text-decoration: underline; }
+
+/*mixin*/
+.seguinos, .seguinos--nueva {
+  width: 400px;
+  height: 100px; }
+
+.seguinos-master {
+  display: flex;
+  -ms-flex-direction: row;
+  justify-content: center; }

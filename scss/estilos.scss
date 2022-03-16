@@ -104,3 +104,109 @@ ul{
         border-radius: 2rem;
     }
 }
+article{
+  display:flex;
+  justify-content: space-between;
+}
+.caja{
+  box-sizing: border-box;
+  padding:8px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border:1px solid black;
+}
+
+/*mapa*/ 
+
+$mapa: (
+    uno:red,
+    dos:orange,
+    tres:blue,
+    cuatro:grey,
+    cinco:pink
+  );
+
+@each $clase, $color in $mapa {
+  .caja.#{$clase}{
+     background-color: $color;
+    &:before{
+      position:absolute;
+      bottom:-30px;
+      left:0px;
+      
+    }
+  }
+}
+article{
+    display:flex;
+    justify-content: space-between;
+  }
+  .caja{
+    box-sizing: border-box;
+    padding:8px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border:1px solid black;
+  }
+  
+
+  
+  $mapa: (
+      uno:red,
+      dos:orange,
+      tres:blue,
+      cuatro:grey,
+      cinco:pink
+    );
+  
+  @each $clase, $color in $mapa {
+    .caja.#{$clase}{
+       background-color: $color;
+      &:before{
+        position:absolute;
+        bottom:-30px;
+        left:0px;
+        
+      }
+    }
+  }
+/*extend*/
+  .seguinos{
+ 
+      border: 1px solid #333333;
+      background-color: #f252d599;
+      padding:20px;
+      font-size: 22px0;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .seguinos--nueva{
+      @extend .seguinos;
+      border-radius: 2rem;
+      text-decoration: underline;
+  }
+  /*mixin*/
+  @mixin flex-row-center {
+      display: flex;
+      -ms-flex-direction: row;
+      justify-content: center;
+      
+  }
+  @mixin sizes($width, $height,) {
+      width: $width;
+      height: $height;
+      
+  }
+  .seguinos{
+      @include sizes(400px, 100px)
+      
+  }
+  .seguinos-master{
+      @include flex-row-center;
+  }
+
+
+
